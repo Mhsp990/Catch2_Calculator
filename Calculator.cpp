@@ -2,7 +2,7 @@
 #include "calculator.hpp"
 
 using namespace std;
-
+//Comentario
 double Calculator::add(double a, double b) {
     return a + b;
 }
