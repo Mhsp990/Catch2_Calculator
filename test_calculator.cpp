@@ -2,7 +2,7 @@
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 #include "calculator.cpp"
-
+//Test
 TEST_CASE("Calculator Operations", "[calculator]") {
     SECTION("Addition") {
         REQUIRE(Calculator::add(2, 3) == 5);
