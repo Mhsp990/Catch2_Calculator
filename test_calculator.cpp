@@ -6,7 +6,7 @@
 //Test
 TEST_CASE("Calculator Operations", "[calculator]") {
     SECTION("Addition") {
-        REQUIRE(Calculator::add(2, 3) == 4);
+        REQUIRE(Calculator::add(2, 3) == 5);
         REQUIRE(Calculator::add(-2, 2) == 0);
         REQUIRE(Calculator::add(0, 0) == 0);
     }
