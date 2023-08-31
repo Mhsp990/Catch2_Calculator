@@ -2,6 +2,7 @@
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 #include "calculator.cpp"
+#include "calculator.hpp"
 //Test
 TEST_CASE("Calculator Operations", "[calculator]") {
     SECTION("Addition") {
