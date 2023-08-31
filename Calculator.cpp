@@ -1,5 +1,7 @@
-
+#include <iostream>
 #include "calculator.hpp"
+
+using namespace std;
 
 double Calculator::add(double a, double b) {
     return a + b;
@@ -15,7 +17,7 @@ double Calculator::multiply(double a, double b) {
 
 double Calculator::divide(double a, double b) {
     if (b == 0.0) {
-        throw std::invalid_argument("Division by zero");
+        throw invalid_argument("Division by zero");
     }
     return a / b;
 }
